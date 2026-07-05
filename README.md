@@ -20,7 +20,6 @@ ARL 默认的 POC 库主要覆盖常见 CVE 漏洞，但在实际渗透测试和
 如需本地调试 POC，请先安装 ARL-NPoC：
 
 ```bash
-git clone https://github.com/Aabyss-Team/ARL-NPoC.git
-cd ARL-NPoC
-pip3 install -r requirements.txt
-pip3 install -e .
+git clone https://github.com/AC-UVC/ARL-ADD-POC.git
+cd ARL-ADD-POC
+sudo cp poc/*.py /opt/docker_arl/poc/
